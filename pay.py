@@ -1,0 +1,6 @@
+hrs = input("Enter Hours:")
+rate = input("Enter Hourly rate:")
+gross = int(hrs) * float(rate)
+print ("Pay:", gross)
+if int(hrs) < 40:print("not over")
+else:print("Overhours")
